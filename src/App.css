@@ -1,0 +1,186 @@
+/* header or section1 */
+
+*{font-family:Georgia, 'Times New Roman', Times, serif;}
+img{max-width: 100%;}
+#main{background-image: url(./assets/images/bg1.jpg);background-size: cover;}
+a,li{text-decoration: none;list-style: none;}
+#main .halfwidth img{width: 100%;max-width: 520px;margin: 12px 0px 12px 50px;}
+.display {display: flex;flex-wrap: wrap;}
+.content{align-items: center;}
+.padd{padding:0px 50px 50px;}
+.align {text-align: center;}
+#main .width{width: 100%;}
+#main .halfwidth .img1{animation: rotate; animation-duration: 8s; animation-iteration-count: infinite;animation-timing-function: linear;}
+@keyframes rotate{0%{transform: rotate(0deg);} 100%{transform: rotate(360deg);}}
+#main .halfwidth{width: 50%;}
+#main .halfwidth{color: whitesmoke;position: relative;overflow: hidden;}
+#main .halfwidth .img2{position: absolute;left: 0;padding-left: 60px;padding-top: 20px; max-width: 450px;}
+#main .navbar{ display: flex; justify-content: space-between;}
+#main header{background-color:#1e1f205e;}
+#main header ul li{display: inline-block;margin-left:30px;padding: 12px;margin-top: 4px;}
+#main header ul li a{text-decoration: none; color:whitesmoke;}
+#main header ul li a:hover{color: #ff6f00;}
+.buttons {margin-top: 30px;}
+.buttons a{padding: 12px 25px; background-color: whitesmoke;border-radius: 16px;color: #000;transition: all 0.5s ease-in-out;}
+.buttons a:hover{background-color:#ff6f00;color: #fff ;border-radius: 8px;}
+#main .width .borderimg{margin-bottom: -2px;transform: rotate(180deg);}
+
+/* section 2 */
+
+#Astrology{background-image: url(./assets/images/bg2.jpg);background-size: cover;}
+#Astrology .sec2data h2 {position: relative;overflow: hidden;z-index: 1;padding-bottom: 20px;line-height: 3;margin-bottom: 30px;font-size: 38px;font-weight: bold;}
+#Astrology .sec2data h2::after{content: " "; height:15px; width:240px;margin: 0 auto;background-image:url(./assets/images/download.jpg);position: absolute;left: 0;right: 0;bottom: 0;}
+#Astrology .sec2data {width: 50%;text-align: center;margin: 0 auto;line-height: 2;margin-top: 55px;}
+#Astrology .sec2data p{color: rgb(68, 68, 68);margin-bottom: 45px;font-size: 14px;}
+#Astrology .width1{width: 100%;}
+#Astrology .halfwidth1{width: 50%;text-align: right;padding-right: 26px;position: relative;overflow: hidden;}
+#Astrology .halfwidth2{width: 50%;}
+#Astrology .halfwidth2 h2{margin-bottom: 30px;font-weight: bold;letter-spacing: 1px;}
+#Astrology .halfwidth2 p{margin-right: 160px;font-size: 14px;color: rgb(68, 68, 68);}
+#Astrology .astroimg .astimg{border-radius: 8px;max-width: 450px;}
+#Astrology .flex{display: flex;}
+#Astrology .astroimg .playbtn{position: absolute;right: 0;margin: 153px 200px;padding: 7px;border-radius: 75%;background-color: #ffffffa6;}
+#Astrology .secmini{display: flex;}
+#Astrology .secmini ul{display: flex;}
+#Astrology .secmini ul .firstli{font-size: 45px;margin-bottom: 2px;color: #ff6f00;margin-right: 2px;}
+#Astrology .secmini ul .secli h3{line-height: 0;margin-top: 12px;font-size: 27px;}
+#Astrology .secmini ul .secli h6{font-size: 12px;}
+#Astrology .secmini ul .secli{margin-top: 22px;}
+#Astrology .secmini span img{margin:20px 0px 0px 20px;}
+#Astrology .halfwidth2 span a{background-color: #c05d12;color: whitesmoke;}
+#Astrology .halfwidth2 span a:hover{background-color: #e69e68;}
+
+/* section 3  */
+
+#Horoscope{background-color: #f6fbff;}
+#Horoscope .headdiv{text-align: center;margin-top: 70px;position: relative;overflow: hidden;padding-top: 50px;}
+#Horoscope .headdiv h2{font-weight: bold;font-size: 32px;margin-bottom: 100px;padding-top: 60px;}
+#Horoscope .headdiv h2::after{content: " ";height: 15px;width: 240px;margin: 0 auto;position: absolute;background-image: url(./assets/images/download.jpg);left: 0;right: 0;margin-top: 77px;}
+#Horoscope .headdiv p{font-size: 14px;color:rgb(68, 68, 68);line-height: 0.5;}
+#Horoscope .col-md-2{border: 1px solid #8080802e;text-align: center;width: 14.0;background-color: white;border-radius: 8px;}
+#Horoscope .container {margin-top: 50px;margin-bottom: 50px;}
+#Horoscope .container .row{padding-bottom: 120px;row-gap: 10px;}
+#Horoscope .container .row .col-md-2 h4{font-size: 17px;font-weight: bold;}
+#Horoscope .container .row .col-md-2 h6{font-size: 13px;}
+#Horoscope .container .row .col-md-2 img{padding: 30px;}
+
+/*  section 4 */
+
+#Service{background-image: url(./assets/images/bg4.jpg);}
+#Service .data{text-align: center;position: relative;overflow: hidden;}
+#Service .data h2{font-weight: bold;font-size: 32px;margin-bottom: 100px;padding-top:40px}
+#Service .data h2::after{content: " ";height: 15px;width: 240px;position: absolute;margin: 0 auto;left: 0;right: 0;top: 0;background-image: url(./assets/images/download.jpg);margin-top: 118px;}
+#Service .data p{font-size:14px ;line-height: 0.5;}
+#Service .maindiv{display: flex;width: 100%;margin-top: 90px;margin-bottom: 90px;}
+#Service .maindiv .halfdiv1{width: 50%;text-align: center;position: relative;}
+#Service .maindiv .halfdiv1 .sideimg{position: absolute;right: 0;margin-right: 199px;margin-bottom: 5px;}
+#Service .maindiv .halfdiv1 .backimg{max-width: 555px;margin-top: 38px;}
+#Service .maindiv .halfdiv1 .backimg{animation-name: rotate;animation-duration: 10s;animation-iteration-count: infinite;animation-timing-function: linear;}
+@keyframes rotate{0%{transform: rotate(0deg);}100%{transform: rotate(360deg);}}
+#Service .maindiv .halfdiv1 .designimg{position: absolute;top: 0;
+right: 0;margin-right: 229px;margin-top: -20px;max-width: 195px;}
+#Service .maindiv .halfdiv1 .designimg{animation: Run;animation-duration: 10s; animation-iteration-count: infinite;animation-timing-function: linear;}
+@keyframes Run{0%{transform: rotate(0deg);} 100%{transform: rotate(360deg);}}
+#Service .maindiv .halfdiv1 img{border-radius: 130px;margin-top: 30px;}
+#Service .maindiv .halfdiv2{width: 50%;display: flex;flex-wrap: wrap;text-align: center;}
+#Service .maindiv .halfdiv2 img{max-width: 80px;margin:30px 0px 45px 0px;}
+#Service .maindiv .halfdiv2 li{display: inline-block;color: #000;margin: 0 auto;}
+#Service .maindiv .halfdiv2 li:hover{color: white;}
+#Service .maindiv .halfdiv2 p{margin-top: 15px;font-size: 14px;max-width: 170px;margin: 0 auto;}
+#Service .maindiv .halfdiv2 .fourdata{border: 1px solid #80808045;margin: 10px;border-radius: 8px;width: calc(100%/2 - 20px);transition: all 0.8s ease-in-out;}
+#Service .maindiv .halfdiv2 .fourdata:hover{background-color:#f58a0673;}
+
+/*  Section 5  */
+
+#Section5{background-image: url(./assets/images/bg1.jpg);}
+#Section5 .head5{text-align: center;position: relative;overflow: hidden;color: white;padding-top: 25px;}
+#Section5 .head5 h2{font-weight: bold;font-size: 32px;margin-top: 50px;margin-bottom: 110px;}
+#Section5 .head5 h2::after{content: "  ";height: 15px;width: 240px;position: absolute;background-image: url(./assets/images/download.jpg);left: 0;right: 0;top: 0;margin: 0 auto;margin-top: 140px;filter: grayscale(300%);}
+#Section5 .head5 p{font-size: 14px;line-height: 0.5;color: white;}
+#Section5 .main {display: flex;margin:80px 0px 0px 0px;padding-bottom: 60px;}
+#Section5 .main .sec5data{margin:20px;text-align: center;margin: 0 auto;}
+#Section5 .main .sec5data img{max-width: 120px;margin-bottom: 20px;}
+#Section5 .main .sec5data h4{font-size: 15px;color: white;}
+#Section5 .topimg2{transform: rotate(180deg);margin-bottom: -1px;}
+
+
+/*  Section 6  */
+
+#Section6{background-image: url(./assets/images/bg2.jpg);background-size: contain;}
+#Section6 .divfirst{text-align: center;position: relative;overflow: hidden;}
+#Section6 .divfirst h2{font-size: 32px;font-weight: bold;margin:60px 0px 90px 0px;}
+#Section6 .divfirst h2::after{content: " ";height: 15px; width: 240px; background-image: url(./assets/images/download.jpg);position: absolute;left: 0;right: 0;top: 0;margin: 0 auto;margin-top: 128px;}
+#Section6 .divfirst p{font-size: 14px;line-height: 0.5;}
+#Section6 .divsec{display: flex;width: 100%;margin-top: 60px;margin-bottom: 100px;}
+#Section6 .divsec .div1{position: relative;overflow: hidden;box-shadow: 1px 0px 0px 0px #80808030;margin-right: 50px;height:250px;width: 580px;}
+#Section6 .divsec .div2{width: 50%;height: 175px;width: 660px;text-align: center; background-image: linear-gradient(orange,rgb(253,157,7));border-radius: 16px;}
+#Section6 .divsec .div2 p{color: white;font-size: 13px;margin: 40px 35px 10px 35px;}
+#Section6 .divsec .div2 li{display: inline-block;color: white;}
+#Section6 .divsec .div2 .astro{font-size: 16px;}
+#Section6 .divsec .div1 img{max-width: 70px;}
+#Section6 .divsec .div1 .img1{position: absolute;right: 0;bottom: 0;left: 30px;top:11px; margin-right: 260px;border-radius: 50px;border-color: #e69e68;}
+#Section6 .divsec .div1 .img2{position: absolute;right: 0;bottom: 0;top: 135px; left: 100px;border-radius: 50px;}
+#Section6 .divsec .div1 .img3{position: absolute;right: 0;bottom: 0;left: 201px ;top:30px ;border-radius: 50px;}
+#Section6 .divsec .div1 .img4{position: absolute;right: 0;bottom: 0;left: 284px; top: 155px;border-radius: 50px;}
+#Section6 .divsec .div1 .img5{position: absolute;right: 0;bottom: 0;left: 400px; top:28px;border-radius: 50px;}
+#Section6 .divsec .div1 .img6{position: absolute;right: 0;bottom: 0;left: 450px;top: 170px;border-radius: 50px;}
+
+
+/*   Section 7      */
+
+#Product{background-image: url(./assets/images/bg7.jpg);}
+#Product .header7{text-align: center;position: relative;overflow: hidden;}
+#Product .header7 h2{font-weight: bold;font-size: 32px;padding-top: 60px;margin-bottom: 95px;}
+#Product .header7 h2::after{content: "  ";height: 15px;width: 240px;position: absolute;top: 0;left: 0;right: 0;margin: 0 auto;margin-top: 130px;background-image: url(./assets/images/download.jpg);}
+#Product .header7 p{font-size: 14px;color: rgb(68, 68, 68);line-height: 0.5;}
+#Product .container{padding-bottom: 50px;margin-top: 50px;}
+#Product .container .row .col{border: 1px solid #8080802e;margin: 12px;padding: 0;background-color: white;transition: all 1s ease-in-out;}
+#Product .container .row .col .divimg{background-color: #f7f8fc;}
+#Product .container .row .col:hover{background-color: #ff6f00;color: white;}
+#Product .container .row .col h4 li{font-size: 18px;color: #ffc201;margin:10px 0px 5px 15px;}
+#Product .container .row .col h5{font-weight: 500;margin: 8px 0px 5px 15px;}
+#Product .container .row .col h6{margin: 8px 0px 25px 15px;}
+#Product .buttons{text-align: center;padding-bottom: 80px;}
+#Product .buttons a{background-color:#ff6f00;}
+
+
+/*  Section8   */
+
+#Section8{background-image: url(./assets/images/bg4.jpg);background-size: cover;}
+#Section8 .Header8{text-align: center;position: relative;overflow: hidden;}
+#Section8 .Header8 h2{font-weight: bold;font-size: 32px;padding-top: 50px;margin-bottom: 80px;}
+#Section8 .Header8 h2::after{content: "  ";height: 15px;width: 240px;position: absolute;background-image: url(./assets/images/download.jpg);left: 0;right: 0;top: 0;margin: 0 auto;margin-top: 115px;}
+#Section8 .Header8 p{font-size: 14px;color: rgb(68, 68, 68);line-height: 0.6;}
+#Section8 .container{margin-top: 40px;}
+#Section8 .container .row .col img{border-top-left-radius: 8px;border-top-right-radius: 8px;}
+#Section8 .container .row .col{border: 1px solid rgba(128, 128, 128, 0.322);padding: 0;margin: 20px;border-top-left-radius: 8px;border-top-right-radius: 8px;transition: all 0.6s ease-in-out;position: relative;overflow: hidden;}
+#Section8 .container .row .col:hover{background-color:#f78026;}
+#Section8 .container .row .col h6{margin:8px 2px 8px 6px;font-size: 15px;display: inline-block;}
+#Section8 .container .row .col h3{font-size: 22px;text-align: center;font-weight: 500;}
+#Section8 .container .row .col p{font-size: 13px;text-align: center;max-width: 300px;margin: 0 auto;padding-bottom: 30px;color: rgb(68, 68, 68);}
+#Section8 .buttons{text-align: center;margin-bottom: 50px;}
+#Section8 .buttons a{background-color: #f78026;}
+#Section8 .container .row .col span{padding: 9px 18px;background-color: #ff6f00;border-radius: 20px;position: absolute;right: 0;top: 0;margin-top: 220px;margin-right: 30px;color: white;}
+
+
+/*   footer   */
+
+
+#Footer{background-image: url(./assets/images/bg8.jpg);background-size: cover;}
+#Footer .head {color: white;background-color: #000000b8;}
+#Footer .head h2{padding-top: 10px;}
+#Footer .maindiv{display: flex;width: 1114px;height: 280px;border-top: solid 1px gray;border-bottom: solid 1px gray;}
+#Footer .maindiv .firstdiv{margin-right: 20px;width: 24%;}
+#Footer .maindiv .firstdiv img{max-width: 100px; margin:25px 0px 25px 5px;}
+#Footer .maindiv .firstdiv p{max-width: 270px;font-size: 13px;margin-left: 5px;color: white;}
+#Footer .maindiv .firstdiv li{display: inline-block;margin: 4px;font-size: 13px;margin-left: 5px;color: white;}
+#Footer .maindiv .secdiv{width: 24%;}
+#Footer .maindiv .secdiv h3{margin: 30px 0px 25px 5px;font-size: 18px;color: white;}
+#Footer .maindiv .secdiv li{font-size: 14px;line-height:0.8;margin-left: 5px;color: white;}
+#Footer .maindiv .thirddiv{width: 24%;}
+#Footer .maindiv .thirddiv h3{margin: 30px 0px 25px 5px;font-size: 18px;color: white;}
+#Footer .maindiv .thirddiv li{font-size: 14px;line-height: 0.8;color: white;}
+#Footer .maindiv .fourthdiv{margin: 25px 0px 25px 5px;width: 24%;}
+#Footer .maindiv .fourthdiv h3{font-size: 18px;color: white;}
+#Footer .maindiv .fourthdiv p{font-size: 12px;color: white;font-size: 11px;}
+#Footer .copy p{text-align: center; color: white;padding: 30px 0px 30px 0px;font-size: 11px;}
